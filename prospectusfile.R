@@ -1,3 +1,4 @@
+#working on the code
 install.packages("rworldmap")
 library(rworldmap)
 breast_cancer_data <- data.frame(
@@ -17,14 +18,13 @@ mapParams <- mapCountryData(
   oceanCol = "lightblue",
   missingCountryCol = "white"
 )
-#map legend
 addMapLegend(
   legendWidth = 0.6,
   legendLabels = "all",
   legendMar = 4
 )
 
-# Manually add text annotations for clarity (optional)
+
 addMapLegend(
   legendWidth = 0.6,
   legendLabels = "all",
